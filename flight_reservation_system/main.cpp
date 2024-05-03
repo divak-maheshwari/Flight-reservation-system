@@ -1,20 +1,23 @@
 #include <iostream>
 #include <cstdlib>
-#include "flight_reservation.cpp"
+#include "flight_reservation.h"
 using namespace std;
 
 int main()
 {
-	system("CLS");
+  system("CLS");
+airlines test;
+  cout << "\t    AIRLINE RESERVATION SYSTEM \n" << endl;
+  cout << "\t    WELCOME \n" << endl;
+  cout << "\t    MENU OPTIONS \n" << endl;
 
-	cout << "\t    AIRLINE RESERVATION SYSTEM \n" << endl;
-	cout << "\t    WELCOME \n" << endl;
-	cout << "\t    MENU OPTIONS \n" << endl;
+  test.menu();
+  test.seat_fill();
 
-	menu();
-	seat_fill();
+  // airlines test;
+  test.test_menu();
 
-	return 0;
+  return 0;
 }
 // output
 
