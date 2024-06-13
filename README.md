@@ -1,2 +1,2 @@
 # CMPE_130
-Advanced Algorithm Design - project 
+Advanced Algorithm Design course project 
